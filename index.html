@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        li:first-of-type a{
+            background-color: yellow;
+        }
+        li:last-of-type a{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <section class="head">
+    <h1 >This is the h1 head tag with the class head</h1>
+    <h2 id="bglime">This is the h2 head tag with the class head</h2>
+    <h3>This is the h3 head tag with the class head</h3>
+    </section>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, debitis.</p>
+        <p id="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed.</p>
+        <p>Lorem, ipsum  <label for="" id="para2"
+            >paragraph </label> dolor sit amet consectetur adipisicing elit. Necessitatibus magni quam eveniet veniam, ullam porro.</p>
+    </section>
+    <section>
+        <ul>
+            <li>click <a href="#">here</a> to go to upskill media</li>
+            <li>click <a href="#">here</a></mark> to go to google</li>
+        </ul>
+        <ol>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente.</li>
+            <li id="list2">Lorem ipsum dolor sit amet.</li>
+            <li class="blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit mollitia nisi laboriosam aperiam expedita deleniti?</li>
+        </ol>
+    </section>
+</body>
+</html>
