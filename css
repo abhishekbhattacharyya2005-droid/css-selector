@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(211, 85, 85);
+}
+.head{
+    color: blue;
+}
+#bglime{
+    color: red;
+    background-color: aqua;
+}
+p{
+    color: white;
+}
+#para{
+    color: green;
+}
+#para2{
+    color: black;
+    font-size: 40px;
+}
+.directchild>li{
+    color: blue;
+}
+/* .directchild>li{ */
+    /* color: red; */
+/* } */
+
+#list2{
+    color: red;
+}
+.blue {
+    color: blue;
+}
